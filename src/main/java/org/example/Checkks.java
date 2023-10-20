@@ -31,10 +31,10 @@ public class Checkks {
         return false;
     };
 
-    public String isMultiple(int number, int multiplier){
+    public Boolean isMultiple(int number, int multiplier){
         if(number%multiplier==0){
-            return "Number is multiplier of second number";
+            return true;
         };
-        return "Number is not multiplier of second number";
+        return false;
     };
 }
